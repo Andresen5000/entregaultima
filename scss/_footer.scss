@@ -1,0 +1,57 @@
+.footer1{
+	flex-direction: column;
+	justify-content: center;
+}
+
+.footer2{
+	
+}
+
+.footer--background{
+	background-color:#003453;
+	
+
+}
+.footer__texto--color{
+	color:white;
+	
+}
+
+
+
+
+
+
+/*google maps*/
+
+.footer3{
+
+	iframe{
+	width:90%;
+	height:100%;
+	}
+	
+}
+
+
+@media only screen and (min-width: 0px) and (max-width: 991px){
+	
+	.footer{
+	flex-direction:column;
+	}
+
+	.footer__texto--padding{
+	padding:1.25% 20% ;}
+
+
+
+}
+
+@media only screen and (min-width: 992px){
+	
+	.footer__texto--padding{
+	padding: 2.5% 0% 2.5% 20%;}
+	
+	
+
+}
